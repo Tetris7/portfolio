@@ -128,6 +128,17 @@ section {
   margin-bottom: 40px;
 }
 
+.reveal {
+  opacity: 0;
+  transform: translateY(28px);
+  transition: opacity 0.7s ease, transform 0.7s ease;
+}
+
+.reveal.in-view {
+  opacity: 1;
+  transform: none;
+}
+
 .tag {
   font-family: var(--font-mono);
   font-size: 12.5px;
