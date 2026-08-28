@@ -1,0 +1,93 @@
+// ─────────────────────────────────────────────────────────────
+// Edit everything in this file with your own info.
+// Nothing else in the app needs to change for basic customization.
+// ─────────────────────────────────────────────────────────────
+
+export interface Project {
+  name: string
+  description: string
+  tech: string[]
+  features: string[]
+  liveUrl?: string
+  githubUrl?: string
+}
+
+export interface ExperienceItem {
+  title: string
+  company: string
+  period: string
+  bullets: string[]
+}
+
+export interface EducationItem {
+  degree: string
+  school: string
+  period: string
+}
+
+export const profile = {
+  name: 'ADETORO HAMMED A.',
+  role: 'Frontend Web Developer',
+  headline: 'I build responsive, user-friendly web experiences with modern frontend technologies.',
+  about:
+    "I'm a frontend developer focused on building responsive and user-friendly web applications. I work with HTML, CSS, JavaScript, React and TypeScript. I enjoy turning ideas into clean, functional interfaces and continuously improving my skills by building real-world projects.",
+    
+  email: 'adetoroadeniyi5@gmail.com',
+  github: 'https://github.com/tetris7',
+  linkedin: 'https://linkedin.com/in/adetoro-adeniyi-a235281a4',
+}
+
+export const skills = {
+  frontend: ['HTML5', 'CSS3', 'JavaScript', 'TypeScript', 'React'],
+  tools: ['Git', 'GitHub', 'Vite', 'Responsive Design'],
+  learning: [''],
+}
+
+export const projects: Project[] = [
+  {
+    name: 'Project One',
+    description: 'One-sentence description of the problem this project solves.',
+    tech: ['React', 'TypeScript', 'CSS'],
+    features: ['Feature one', 'Feature two', 'Feature three'],
+    liveUrl: '#',
+    githubUrl: '#',
+  },
+  {
+    name: 'Project Two',
+    description: 'One-sentence description of the problem this project solves.',
+    tech: ['React', 'TypeScript'],
+    features: ['Feature one', 'Feature two', 'Feature three'],
+    liveUrl: '#',
+    githubUrl: '#',
+  },
+  {
+    name: 'Project Three',
+    description: 'One-sentence description of the problem this project solves.',
+    tech: ['React', 'Vite'],
+    features: ['Feature one', 'Feature two', 'Feature three'],
+    liveUrl: '#',
+    githubUrl: '#',
+  },
+]
+
+export const experience: ExperienceItem[] = [
+  {
+    title: 'Frontend Web Developement Intern',
+    company: 'Mzienets Systems',
+    period: 'May 2024 – October 2024',
+    bullets: [
+      'Participated in frontend development training focused on modern web development practices.',
+      'Collaborated with other developers to build a Jumia-inspired e-commerce website clone.',
+      'Contributed to implementing responsive user interfaces and frontend functionality.',
+      'Practiced working with Git/version control and collaborative development workflows.`'
+    ],
+  },
+]
+
+export const education: EducationItem[] = [
+  {
+    degree: 'B.Sc. Mathematics',
+    school: 'Federal University of Agriculture, Abeokuta.',
+    period: '2021 – 2025',
+  },
+]
