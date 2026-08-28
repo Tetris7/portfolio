@@ -1,4 +1,4 @@
-# Frontend Portfolio
+# My Portfolio
 
 A personal portfolio site built with **React + TypeScript + Vite**, styled like a code editor — the hero renders my intro as a syntax-highlighted object literal.
 
