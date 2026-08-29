@@ -2,7 +2,7 @@
 
 A personal portfolio site built with **React + TypeScript + Vite**, styled like a code editor — the hero renders my intro as a syntax-highlighted object literal.
 
-🔗 **Live site:** [your-deployed-url.com](#)
+🔗 **Live site:** [[your-deployed-url.com](https://portfolio-iota-topaz-dwtzinij4j.vercel.app/)](#)
 
 ## Tech stack
 
