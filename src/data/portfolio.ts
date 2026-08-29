@@ -62,12 +62,12 @@ export const projects: Project[] = [
     githubUrl: '#',
   },
   {
-    name: 'Project Three',
-    description: 'One-sentence description of the problem this project solves.',
-    tech: ['React', 'Vite'],
-    features: ['Feature one', 'Feature two', 'Feature three'],
-    liveUrl: '#',
-    githubUrl: '#',
+    name: 'React Admin Dashboard',
+    description: 'A responsive dashboard interface built with React and TypeScript, featuring reusable components, data visualization, and interactive UI elements.',
+    tech: ['React', 'Typescript', 'Css', 'Vite'],
+    features: ['Data visualization', 'Reusable componenets', 'Responsive layouts'],
+    liveUrl: 'https://react-dashboard-self-nine.vercel.app/',
+    githubUrl: 'https://github.com/Tetris7/react-dashboard',
   },
 ]
 
