@@ -42,10 +42,13 @@ export default function Hero() {
           </p>
           <div style={{ display: 'flex', gap: 14, marginTop: 32, flexWrap: 'wrap' }}>
             <a href="#projects" className="btn-primary">
-              View my projects
+               View my projects
             </a>
             <a href="#contact" className="btn-secondary">
-              Contact me
+               Contact me
+            </a>
+            <a href={profile.resumeUrl} download className="btn-secondary">
+               Download CV ↓
             </a>
           </div>
         </div>
