@@ -10,6 +10,7 @@ export interface Project {
   features: string[]
   liveUrl?: string
   githubUrl?: string
+  resumeUrl?: string
 }
 
 export interface ExperienceItem {
@@ -30,11 +31,12 @@ export const profile = {
   role: 'Frontend Web Developer',
   headline: 'I build responsive, user-friendly web experiences with modern frontend technologies.',
   about:
-    "I'm a frontend developer focused on building responsive and user-friendly web applications. I work with HTML, CSS, JavaScript, React and TypeScript. I enjoy turning ideas into clean, functional interfaces and continuously improving my skills by building real-world projects.",
+    "I’m a frontend developer focused on building responsive, user-friendly web applications with React, JavaScript and TypeScript. I enjoy turning ideas into clean, functional interfaces and I’m currently looking for opportunities where I can contribute to real-world products while continuing to grow as a developer.",
     
   email: 'adetoroadeniyi5@gmail.com',
   github: 'https://github.com/tetris7',
   linkedin: 'https://linkedin.com/in/adetoro-adeniyi-a235281a4',
+  resume: 'ADETORO_ADENIYI RESUME',
 }
 
 export const skills = {
