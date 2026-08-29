@@ -10,7 +10,6 @@ export interface Project {
   features: string[]
   liveUrl?: string
   githubUrl?: string
-  resumeUrl?: string
 }
 
 export interface ExperienceItem {
@@ -36,13 +35,12 @@ export const profile = {
   email: 'adetoroadeniyi5@gmail.com',
   github: 'https://github.com/tetris7',
   linkedin: 'https://linkedin.com/in/adetoro-adeniyi-a235281a4',
-  resume: 'ADETORO_ADENIYI RESUME',
 }
 
 export const skills = {
   frontend: ['HTML5', 'CSS3', 'JavaScript', 'TypeScript', 'React'],
   tools: ['Git', 'GitHub', 'Vite', 'Responsive Design'],
-  learning: [''],
+  learning: ['Backend']
 }
 
 export const projects: Project[] = [
