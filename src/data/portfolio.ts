@@ -35,6 +35,7 @@ export const profile = {
   email: 'adetoroadeniyi5@gmail.com',
   github: 'https://github.com/tetris7',
   linkedin: 'https://linkedin.com/in/adetoro-adeniyi-a235281a4',
+  resumeUrl: '/ADETORO_ADENIYI Resume.docx',
 }
 
 export const skills = {
