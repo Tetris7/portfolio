@@ -46,12 +46,12 @@ export const skills = {
 
 export const projects: Project[] = [
   {
-    name: 'Project One',
-    description: 'One-sentence description of the problem this project solves.',
-    tech: ['HTML5', 'JavaScript', 'CSS3'],
-    features: ['Feature 1', 'Feature 2', 'Feature 3'],
-    liveUrl: '#',
-    githubUrl: '#',
+    name: 'Flowdesk',
+    description: 'Full-stack SaaS platform for managing projects, tasks and team productivity.',
+    tech: ['React', 'TypeScript', 'Tailwind', 'Supabase'],
+    features: ['Task Management', 'Team Collaboration', 'Project Analysis'],
+    liveUrl: 'https://flowdesk-ochre-pi.vercel.app/',
+    githubUrl: 'https://github.com/Tetris7/flowdesk',
   },
   {
     name: 'Lavada Cosmetics — E-Commerce Website',
@@ -59,7 +59,7 @@ export const projects: Project[] = [
     tech: ['HTML5', 'CSS3', 'JavaScript'],
     features: ['Responsive', 'E-Commerce', 'WhatsApp Integration'],
     liveUrl: 'https://lavadacosmetics.netlify.app/',
-    githubUrl: '#',
+    githubUrl: 'https://github.com/Tetris7/lavada-cosmetics',
   },
   {
     name: 'React Admin Dashboard',
